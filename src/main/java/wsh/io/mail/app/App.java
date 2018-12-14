@@ -43,7 +43,6 @@ public class App {
 		
 	public static void main(String[] args) throws Exception {
 		try {
-			args = new String[] {"", ""};
 			
 			mkdir(SAVE_PATH);
 			Authenticator authenticator = createAuthenticator(args);
