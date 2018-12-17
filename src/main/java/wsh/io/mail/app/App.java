@@ -57,7 +57,7 @@ public class App {
 							
 							String sFrom = ((InternetAddress)from[0]).getAddress().toLowerCase();
 							String receivedDate = new SimpleDateFormat("yyyyMM").format(message.getReceivedDate());
-							return "2186545300@qq.com".equals(sFrom) && receivedDate.compareTo("201810") >= 0;
+							return "".equals(sFrom) && receivedDate.compareTo("201810") >= 0;
 						}
 					} catch (MessagingException e) {
 						e.printStackTrace();
